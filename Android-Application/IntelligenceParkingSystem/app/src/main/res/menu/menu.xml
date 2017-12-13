@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Pay or book parking"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_parking"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person_black"/>
+    <item
+        android:title="Check balance or add more credit"
+        android:id="@+id/balance"
+        android:icon="@drawable/ic_money"/>
+    <item
+        android:title="Customer support"
+        android:id="@+id/customerSupport"
+        android:icon="@drawable/ic_support_person"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_lock_black"/>
+</menu>

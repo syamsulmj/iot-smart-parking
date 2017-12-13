@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Intelligence Parking System</string>
+    <string name="app_title">Intelligence Parking System</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="profile">Profile</string>
+    <string name="topup">Add More Credit</string>
+    <string name="balance">Balance</string>
+    <string name="warning">Please note that your car will be clamped if you did not follow the rules!</string>
+    <string name="customer_support_description">If you have any issues with the system please contact us at 1-300-88-2525</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

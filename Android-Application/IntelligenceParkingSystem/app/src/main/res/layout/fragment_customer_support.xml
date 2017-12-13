@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.syamsulmj.intelligenceparkingsystem.CustomerSupportFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Call Customer Service"
+            android:textSize="25sp"
+            android:background="@color/pink"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_support_description"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/pink"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type of service that we provided: "
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/pink"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Reporting a illegal parking"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/pink"
+            android:paddingLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Issues with the apps"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/pink"
+            android:paddingLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Can't book or pay"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/pink"
+            android:paddingLeft="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/pink"
+            android:text="You can easily click the bottom button to dial up the contact number"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+
+        <Button
+            android:id="@+id/dialUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/topup_button"
+            android:text="Dial 1-300-88-2525 now"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</FrameLayout>

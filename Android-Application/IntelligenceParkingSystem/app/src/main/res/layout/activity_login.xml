@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.example.syamsulmj.intelligenceparkingsystem.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/ipsmainlogo"/>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleLarge"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textWebEditText"
+            android:maxLines="1"
+            android:ems="10"
+            android:id="@+id/username"
+            android:hint="@string/username"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/ic_person_white_24dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textWebPassword"
+            android:maxLines="1"
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/ic_lock_white_24dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginBtn"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="Log in"
+            android:textAllCaps="false"
+            android:textColor="#f16f7d"
+            android:clickable="true"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:background="@drawable/background_login"
+            android:onClick="login"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/regBtn"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="Sign up"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:clickable="true"
+            android:background="@drawable/background_signup"
+            android:onClick="register"/>
+    </LinearLayout>
+
+
+</LinearLayout>
