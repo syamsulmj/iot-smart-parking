@@ -1,0 +1,9 @@
+#!/bin/bash
+
+env="$1"
+echo "Preparing for deployment....."
+
+if [[ "$env" == "prod" ]]; then
+  printf "\nDeploying into production\n"
+  find . -type f -exec curl -u ipscapstone@ipscapstone.tech:ipscapstone123 --ftp-create-dirs -T {} ftp.ipscapstone.tech/{} \;
+fi
