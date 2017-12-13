@@ -5,5 +5,6 @@ echo "Preparing for deployment....."
 
 if [[ "$env" == "prod" ]]; then
   printf "\nDeploying into production\n"
-  find . -type f -exec curl -u ipscapstone@ipscapstone.tech:ipscapstone123 --ftp-create-dirs -T {} ftp.ipscapstone.tech/{} \;
+  find . -type f -exec curl -u ftp-username:ftp-password --ftp-create-dirs -T {} ftp.ipscapstone.tech/{} \;
+  #                 replace this with your username & password              replace this with your ftp link
 fi
